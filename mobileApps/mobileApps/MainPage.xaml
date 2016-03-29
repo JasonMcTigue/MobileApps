@@ -48,7 +48,7 @@
                 <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/background.png"/>
             </Grid.Background>
             <TextBox x:Name="userNameBox" HorizontalAlignment="Left" Height="72" Margin="10,238,-10,0" TextWrapping="Wrap" Text="Enter a username here" VerticalAlignment="Top" Width="456" Tap="userNameBox_Tap"/>
-            <Button x:Name="btn_Play" Content="Play Game" HorizontalAlignment="Left" Margin="35,462,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.02,0.803"/>
+            <Button x:Name="btn_PlayGame" Content="Play Game" HorizontalAlignment="Left" Margin="35,462,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.02,0.803"/>
             <Button x:Name="btn_highscore" Content="High Score" HorizontalAlignment="Left" Margin="279,462,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.347,2.149"/>
         </Grid>
         

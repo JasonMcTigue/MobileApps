@@ -24,7 +24,7 @@ namespace mobileApps
 
         private void userNameBox_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            if (userNameBox.Text == "Enter a username here") {
+            if (userNameBox.Text == "Enter a username") {
                 userNameBox.Text = "";
             }
         }
