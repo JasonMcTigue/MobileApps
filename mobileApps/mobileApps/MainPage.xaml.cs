@@ -42,7 +42,7 @@ namespace mobileApps
                 MessageBox.Show("Username Accepted");
             }
             else{
-                MessageBox.Show("You must enter a valid username");
+                MessageBox.Show("Username must be between three and ten characters and have at least one letter");
             }
         }
 
