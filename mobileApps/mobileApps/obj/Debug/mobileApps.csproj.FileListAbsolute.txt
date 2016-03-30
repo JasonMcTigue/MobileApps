@@ -69,3 +69,4 @@ C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\Multi
 C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\ProjectArchitectures.txt
 C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\MDILProjectFiles.xml
 C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\XapCacheFile.xml
+C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\GameplayPage.g.cs

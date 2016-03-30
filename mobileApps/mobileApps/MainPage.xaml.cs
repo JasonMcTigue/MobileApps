@@ -47,10 +47,13 @@ namespace mobileApps
                 else {
                     userSettings.Add("usernmae", userNameBox.Text);//if the isername hasnt been added before it adds it here
                 }
+
+                NavigationService.Navigate(new Uri("/GameplayPage.xaml", UriKind.Relative)); //Navigates to the gameplay page when a valid username is entered 
             }
             else{
                 MessageBox.Show("Username must be between three and ten characters and have at least one letter");
-            }  
+            }
+
         }
 
         //Checks to see if the username entered is a valid one eg not blank
