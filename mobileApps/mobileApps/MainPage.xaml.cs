@@ -45,7 +45,7 @@ namespace mobileApps
                     userSettings.Add("usernmae", userNameBox.Text);//and added again.
                 }
                 else {
-                    userSettings.Add("usernmae", userNameBox.Text);//if the isername hasnt been added before it adds it here
+                    userSettings.Add("username", userNameBox.Text);//if the isername hasnt been added before it adds it here
                 }
 
                 NavigationService.Navigate(new Uri("/GameplayPage.xaml", UriKind.Relative)); //Navigates to the gameplay page when a valid username is entered 

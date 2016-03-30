@@ -28,10 +28,12 @@
             <Grid.Background>
                 <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/background.png"/>
             </Grid.Background>
-            <Canvas HorizontalAlignment="Left" Height="666" VerticalAlignment="Top" Width="456" RenderTransformOrigin="0.435,0.565">
-            <TextBlock x:Name="txtMessage" HorizontalAlignment="Left" Margin="159,353,0,0" TextWrapping="Wrap" Text="Tap To Play" VerticalAlignment="Top" Foreground="#FF701220" RenderTransformOrigin="0.023,1.019" Height="53" Width="144"/>
-            <HyperlinkButton x:Name="hbtnTap" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="758" Width="456"/>
+            <Canvas HorizontalAlignment="Left" Height="706" VerticalAlignment="Top" Width="456" RenderTransformOrigin="0.435,0.565" Margin="0,52,0,0">
+                <TextBlock x:Name="txtCountdown" HorizontalAlignment="Left" Margin="159,353,0,0" TextWrapping="Wrap" Text="Tap To Play" VerticalAlignment="Top" Foreground="#FF701220" RenderTransformOrigin="0.023,1.019" Height="53" Width="144"/>
+                <HyperlinkButton x:Name="hbtnTap" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="758" Width="456" Tap="hbtnTap_Tap"/>
             </Canvas>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="21,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="42" Foreground="#FFD41D1D"/>
+
         </Grid>
     </Grid>
 
