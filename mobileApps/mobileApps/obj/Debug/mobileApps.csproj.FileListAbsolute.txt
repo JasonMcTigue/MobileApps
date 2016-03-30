@@ -49,7 +49,6 @@ C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\AppMa
 C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\mobileApps_Debug_AnyCPU.xap
 C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\App.g.cs
 C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\MainPage.g.cs
-C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\PlayGamePage.g.cs
 C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\mobileApps.g.resources
 C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\mobileApps.Resources.AppResources.resources
 C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\mobileApps.csproj.GenerateResource.Cache

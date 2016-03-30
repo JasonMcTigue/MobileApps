@@ -20,15 +20,18 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
+
+
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/background.png"/>
+            </Grid.Background>
+            <Canvas HorizontalAlignment="Left" Height="666" VerticalAlignment="Top" Width="456" RenderTransformOrigin="0.435,0.565">
+            <TextBlock x:Name="txtMessage" HorizontalAlignment="Left" Margin="159,353,0,0" TextWrapping="Wrap" Text="Tap To Play" VerticalAlignment="Top" Foreground="#FF701220" RenderTransformOrigin="0.023,1.019" Height="53" Width="144"/>
+            <HyperlinkButton x:Name="hbtnTap" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="758" Width="456"/>
+            </Canvas>
         </Grid>
     </Grid>
 
