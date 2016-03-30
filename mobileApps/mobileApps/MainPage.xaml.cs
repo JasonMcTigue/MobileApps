@@ -42,7 +42,7 @@ namespace mobileApps
                 MessageBox.Show("Username Accepted");
             }
             else{
-                MessageBox.Show("You must enter a valid  username");
+                MessageBox.Show("You must enter a valid username");
             }
         }
 
@@ -51,8 +51,9 @@ namespace mobileApps
             bool result = false; // if condition is returned false the isValidName if statement returns false
 
             //Checks the username to see if its a letter or a digit and that the username has at least on letter and that the text isnt equal to Enter a username. 
-            //Also stops the user from pressing play straigh away,
-            if (username.All(char.IsLetterOrDigit) && username.Any(char.IsLetter) && !(username == "Enter a username")) result = true;
+            //Also stops the user from pressing play straigh away.
+            //Added extra condition where the username length must be greater than 2 and equal to or less that 10.
+            if (username.All(char.IsLetterOrDigit) && username.Any(char.IsLetter) && ((username.Length > 2) && (username.Length <=10) ) && !(username == "Enter a username")) result = true;
 
             return result;
 
