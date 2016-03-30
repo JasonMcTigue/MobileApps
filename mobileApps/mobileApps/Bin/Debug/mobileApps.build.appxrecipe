@@ -33,6 +33,9 @@
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\background.png">
       <PackagePath>Assets\Images\background.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\goblin.png">
+      <PackagePath>goblin.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
