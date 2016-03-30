@@ -1,1 +1,1 @@
-C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\mobileApps.csproj;neutral
+C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\mobileApps.csproj;neutral

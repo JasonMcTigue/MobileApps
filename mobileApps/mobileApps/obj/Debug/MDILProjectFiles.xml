@@ -5,12 +5,12 @@
     <File>mobileApps.dll</File>
     <File>Assets\AlignmentGrid.png</File>
     <File>Assets\BadgeLogo.png</File>
+    <File>Assets\Images\background.png</File>
     <File>Assets\Logo.png</File>
     <File>Assets\SplashScreen.png</File>
     <File>Assets\SquareTile150x150.png</File>
     <File>Assets\SquareTile71x71.png</File>
     <File>Assets\StoreLogo.png</File>
-    <File>Assets\Tiles\background.png</File>
     <File>Assets\WideLogo.png</File>
     <File>Assets\Tiles\FlipCycleTileLarge.png</File>
     <File>Assets\Tiles\FlipCycleTileSmall.png</File>

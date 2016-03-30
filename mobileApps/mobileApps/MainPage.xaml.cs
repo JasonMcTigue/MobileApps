@@ -8,11 +8,15 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using mobileApps.Resources;
+using System.IO.IsolatedStorage;
+
 
 namespace mobileApps
 {
     public partial class MainPage : PhoneApplicationPage
     {
+        IsolatedStorageSettings appSettings = IsolatedStorageSettings.ApplicationSettings; //Used to store usernames..
+         
         // Constructor
         public MainPage()
         {
@@ -22,12 +26,39 @@ namespace mobileApps
             //BuildLocalizedApplicationBar();
         }
 
+
         private void userNameBox_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
             if (userNameBox.Text == "Enter a username") {
                 userNameBox.Text = "";
             }
         }
+
+        private void btn_PlayGame_Click(object sender, RoutedEventArgs e)
+        {
+            bool isValidName = checkUserName(userNameBox.Text); 
+
+            if (isValidName == true) {
+                MessageBox.Show("Username Accepted");
+            }
+            else{
+                MessageBox.Show("You must enter a valid  username");
+            }
+        }
+
+        //Checks to see if the username entered is a valid one eg not blank
+        private bool checkUserName(string username) {
+            bool result = false; // if condition is returned false the isValidName if statement returns false
+
+            //Checks the username to see if its a letter or a digit and that the username has at least on letter and that the text isnt equal to Enter a username. 
+            //Also stops the user from pressing play straigh away,
+            if (username.All(char.IsLetterOrDigit) && username.Any(char.IsLetter) && !(username == "Enter a username")) result = true;
+
+            return result;
+
+        }
+
+
 
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()

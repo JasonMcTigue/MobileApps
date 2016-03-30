@@ -1,23 +1,23 @@
-﻿<xapCache source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Bin\Debug\mobileApps_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="29/03/2016 20:54:54">
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="29/03/2016 20:51:05" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\obj\Debug\mobileApps.dll" archivePath="mobileApps.dll" lastWriteTime="29/03/2016 20:54:53" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\Tiles\background.png" archivePath="Assets\Tiles\background.png" lastWriteTime="29/03/2016 20:46:38" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="29/03/2016 20:45:40" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="29/03/2016 20:45:19" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="29/03/2016 20:45:40" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="29/03/2016 20:54:54" />
-  <file source="C:\Users\JasonMcTigue\Documents\Mobile Apps\mobileApps\mobileApps\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="29/03/2016 20:51:05" />
+﻿<xapCache source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\mobileApps_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="30/03/2016 13:00:49">
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="30/03/2016 13:00:48" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\mobileApps.dll" archivePath="mobileApps.dll" lastWriteTime="30/03/2016 13:00:47" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\background.png" archivePath="Assets\Images\background.png" lastWriteTime="29/03/2016 23:47:08" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="29/03/2016 20:45:40" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="29/03/2016 20:45:19" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="29/03/2016 20:45:40" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="30/03/2016 13:00:49" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="30/03/2016 13:00:48" />
 </xapCache>
