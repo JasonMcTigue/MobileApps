@@ -15,7 +15,7 @@ namespace mobileApps
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        IsolatedStorageSettings appSettings = IsolatedStorageSettings.ApplicationSettings; //Used to store usernames..
+        IsolatedStorageSettings userSettings = IsolatedStorageSettings.ApplicationSettings; //Used to store usernames
          
         // Constructor
         public MainPage()
@@ -39,11 +39,18 @@ namespace mobileApps
             bool isValidName = checkUserName(userNameBox.Text); 
 
             if (isValidName == true) {
-                MessageBox.Show("Username Accepted");
+                if (userSettings.Contains("username"))
+                {
+                    userSettings.Remove("username"); //Checks to see if the username has already been added and if it has it is removed 
+                    userSettings.Add("usernmae", userNameBox.Text);//and added again.
+                }
+                else {
+                    userSettings.Add("usernmae", userNameBox.Text);//if the isername hasnt been added before it adds it here
+                }
             }
             else{
                 MessageBox.Show("Username must be between three and ten characters and have at least one letter");
-            }
+            }  
         }
 
         //Checks to see if the username entered is a valid one eg not blank
