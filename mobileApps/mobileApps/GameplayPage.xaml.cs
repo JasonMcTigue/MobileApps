@@ -15,7 +15,8 @@ namespace mobileApps
 {
     public partial class GameplayPage : PhoneApplicationPage
     {
-        IsolatedStorageSettings userSettings = IsolatedStorageSettings.ApplicationSettings; //Used to store usernames
+        IsolatedStorageSettings userSettings = IsolatedStorageSettings.ApplicationSettings;
+       
 
         DispatcherTimer startTimer = new DispatcherTimer();// Used for the countdown to start the game.
         DispatcherTimer gamePlayTimer = new DispatcherTimer();// Used for the time in the game.
@@ -77,7 +78,6 @@ namespace mobileApps
 
             }
         }
-
 
         private void hbtnTap_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
@@ -150,8 +150,40 @@ namespace mobileApps
                 resultComment = "Your a pro";
             }
 
+           // setLocalScore();
             return resultComment;
 
+        }
+
+        private void btnSkip_Click(object sender, RoutedEventArgs e)
+        {
+            setHighScore(); // calls the method for setting the users high score.
+            NavigationService.GoBack();//brings the user back a page
+        }
+
+        //Method for setting the high score using isolated storage 
+        private void setHighScore() {
+
+            if (userSettings.Contains("highscore")) {
+                int highscore = Int32.Parse(userSettings["highscore"].ToString());//varibale for storing the highscore so it can be displayed on the screen
+
+                if (highscore < totalGoblins)
+                {
+                    userSettings.Remove("highscore");// if the same high score is already in the game it is removed...
+                    userSettings.Add("highscore", totalGoblins.ToString());//and then added again
+                }
+                
+            }
+            //If its the users first time playing the game 
+            else {
+                userSettings.Add("highscore", totalGoblins.ToString());
+            }
+
+        }
+
+        private void btnUpload_Click(object sender, RoutedEventArgs e)
+        {
+           
         }
     }
 

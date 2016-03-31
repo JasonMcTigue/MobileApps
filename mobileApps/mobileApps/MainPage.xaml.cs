@@ -42,10 +42,10 @@ namespace mobileApps
                 if (userSettings.Contains("username"))
                 {
                     userSettings.Remove("username"); //Checks to see if the username has already been added and if it has it is removed 
-                    userSettings.Add("usernmae", userNameBox.Text);//and added again.
+                    userSettings.Add("username", userNameBox.Text);//and added again.
                 }
                 else {
-                    userSettings.Add("username", userNameBox.Text);//if the isername hasnt been added before it adds it here
+                    userSettings.Add("username", userNameBox.Text);//if the username hasnt been added before it adds it here
                 }
 
                 NavigationService.Navigate(new Uri("/GameplayPage.xaml", UriKind.Relative)); //Navigates to the gameplay page when a valid username is entered 
@@ -67,6 +67,11 @@ namespace mobileApps
 
             return result;
 
+        }
+
+        private void btn_highscore_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/highScorePage.xaml", UriKind.Relative));
         }
 
 
