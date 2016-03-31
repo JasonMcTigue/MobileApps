@@ -135,17 +135,17 @@ namespace mobileApps
                 resultComment = "Poor attempt you could do better";
             }
 
-            if (totalGoblins >= 20 && totalGoblins <= 40)
+            else if (totalGoblins >= 20 && totalGoblins <= 40)
             {
                 resultComment = "Not a bad attempt but you could do better";
             }
 
-            if (totalGoblins >= 40 && totalGoblins <= 60)
+            else if (totalGoblins >= 40 && totalGoblins <= 60)
             {
                 resultComment = "Good job, your getting good!";
             }
 
-            if (totalGoblins >= 60)
+            else if (totalGoblins >= 60)
             {
                 resultComment = "Your a pro";
             }
