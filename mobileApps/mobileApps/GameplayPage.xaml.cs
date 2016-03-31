@@ -94,7 +94,7 @@ namespace mobileApps
         {
             Image NewGoblin = new Image();
             NewGoblin.Name = "goblin" + totalGoblins.ToString();
-            NewGoblin.Source = new BitmapImage(new Uri("goblin.png" , UriKind.RelativeOrAbsolute));
+            NewGoblin.Source = new BitmapImage(new Uri("alien.jpeg" , UriKind.RelativeOrAbsolute));
             NewGoblin.Height = 60;
             NewGoblin.Width = 60;
             NewGoblin.Tap += NewGoblin_Tap;
@@ -109,6 +109,8 @@ namespace mobileApps
             PlayingCanvas.Children.Add(NewGoblin);
 
         }
+
+
 
         private void NewGoblin_Tap(object sender, System.Windows.Input.GestureEventArgs e) {
             Image image = sender as Image;

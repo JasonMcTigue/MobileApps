@@ -40,19 +40,26 @@
          -->
 
         <!--TitlePanel contains the name of the application and page title-->
-        
+
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,0,10,0">
             <Grid.Background>
-                <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/background.png"/>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/space.png"/>
             </Grid.Background>
-            <TextBox x:Name="userNameBox" HorizontalAlignment="Left" Height="72" Margin="10,238,-10,0" TextWrapping="Wrap" Text="Enter a username" VerticalAlignment="Top" Width="456" Tap="userNameBox_Tap"/>
-            <Button x:Name="btn_PlayGame" Content="Play Game" HorizontalAlignment="Left" Margin="35,462,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.02,0.803" Click="btn_PlayGame_Click"/>
-            <Button x:Name="btn_highscore" Content="High Score" HorizontalAlignment="Left" Margin="240,462,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.347,2.149" Click="btn_highscore_Click"/>
-            
+            <TextBox x:Name="userNameBox" HorizontalAlignment="Left" Height="72" Margin="10,238,-10,0" TextWrapping="Wrap" Text="Enter a username" VerticalAlignment="Top" Width="456" Tap="userNameBox_Tap">
+                <TextBox.BorderBrush>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.BorderBrush>
+            </TextBox>
+            <Button x:Name="btn_PlayGame" Content="Play Game" HorizontalAlignment="Left" Margin="35,462,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.02,0.803" Click="btn_PlayGame_Click" Background="#FFF01919"/>
+            <Button x:Name="btn_highscore" Content="High Score" HorizontalAlignment="Left" Margin="240,462,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.347,2.149" Click="btn_highscore_Click" Background="#FF010301"/>
+
         </Grid>
-        
+
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to

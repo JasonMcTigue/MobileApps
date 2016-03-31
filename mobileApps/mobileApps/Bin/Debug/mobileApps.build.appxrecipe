@@ -21,6 +21,9 @@
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\mobileApps.dll">
       <PackagePath>mobileApps.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\alien.jpeg">
+      <PackagePath>alien.jpeg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\AlignmentGrid.png">
       <PackagePath>Assets\AlignmentGrid.png</PackagePath>
     </AppxPackagedFile>
@@ -73,6 +76,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\space.png">
+      <PackagePath>Assets\Images\space.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
