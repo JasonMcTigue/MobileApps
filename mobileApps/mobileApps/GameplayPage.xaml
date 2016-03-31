@@ -36,8 +36,16 @@
                 <TextBlock x:Name="txtCountdown" HorizontalAlignment="Left" Margin="159,353,0,0" TextWrapping="Wrap" Text="Tap To Play" VerticalAlignment="Top" Foreground="#FF701220" RenderTransformOrigin="0.023,1.019" Height="53" Width="144"/>
                 <HyperlinkButton x:Name="hbtnTap" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="758" Width="456" Tap="hbtnTap_Tap"/>
             </Canvas>
-            
-            
+
+            <Grid x:Name="resultsGrid" Background="#FF323232">
+                <TextBlock x:Name="txtResultTitle" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Time's Up" VerticalAlignment="Top" Height="61" Width="460" TextAlignment="Center" FontSize="36"/>
+                <TextBlock x:Name="txtResultMessage" HorizontalAlignment="Left" Margin="10,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="147" Width="460" FontSize="24" TextAlignment="Center"/>
+                
+                <TextBlock x:Name="txtResult" HorizontalAlignment="Left" Margin="-23,242,0,0" TextWrapping="Wrap" Text="You scored" VerticalAlignment="Top" Width="460" FontSize="36" TextAlignment="Center"/>
+                <TextBlock x:Name="txtScoreTotal" HorizontalAlignment="Left" Margin="10,310,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="102" Width="460" TextAlignment="Center"/>
+                <Button x:Name="btnUpload" Content="Upload Score" Margin="250,682,-14,0" VerticalAlignment="Top" Height="86" FontSize="24" HorizontalAlignment="Left" Width="220"/>
+                <Button x:Name="btnSkip" Content="Skip" Margin="10,682,0,0" VerticalAlignment="Top" Height="86" FontSize="24" HorizontalAlignment="Left" Width="220"/>
+            </Grid>
 
         </Grid>
     </Grid>

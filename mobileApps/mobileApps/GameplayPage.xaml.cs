@@ -69,6 +69,7 @@ namespace mobileApps
             {
                 gamePlayTimer.Stop();
                 PlayingCanvas.Children.Clear();
+                populateResults();
             }
             else {
                 playTime--;
@@ -119,6 +120,39 @@ namespace mobileApps
 
         }
 
+        private void populateResults() {
+            txtResultTitle.Text = "Times Up " + player; //Displays the times up messgae and the players username
+            txtResultMessage.Text = comment();// Calls a method to display a message depending on what the user has scored on the game.
+            txtScoreTotal.Text = totalGoblins.ToString();//Displays the total amount of points the player got in the game.
+
+            resultsGrid.Visibility = Visibility.Visible; //Makes the result screen appear on the screen when the timer has ended
+        }
+
+        private string comment() {
+            string resultComment = "";
+
+            if (totalGoblins >= 0 && totalGoblins <= 20) {
+                resultComment = "Poor attempt you could do better";
+            }
+
+            if (totalGoblins >= 20 && totalGoblins <= 40)
+            {
+                resultComment = "Not a bad attempt but you could do better";
+            }
+
+            if (totalGoblins >= 40 && totalGoblins <= 60)
+            {
+                resultComment = "Good job, your getting good!";
+            }
+
+            if (totalGoblins >= 60)
+            {
+                resultComment = "Your a pro";
+            }
+
+            return resultComment;
+
+        }
     }
 
     
