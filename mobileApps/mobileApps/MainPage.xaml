@@ -45,7 +45,7 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,0,10,0">
             <Grid.Background>
-                <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/space.png"/>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/darkbackground.jpg"/>
             </Grid.Background>
             <TextBox x:Name="userNameBox" HorizontalAlignment="Left" Height="72" Margin="10,238,-10,0" TextWrapping="Wrap" Text="Enter a username" VerticalAlignment="Top" Width="456" Tap="userNameBox_Tap">
                 <TextBox.BorderBrush>
@@ -57,6 +57,7 @@
             </TextBox>
             <Button x:Name="btn_PlayGame" Content="Play Game" HorizontalAlignment="Left" Margin="35,462,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.02,0.803" Click="btn_PlayGame_Click" Background="#FFF01919"/>
             <Button x:Name="btn_highscore" Content="High Score" HorizontalAlignment="Left" Margin="240,462,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.347,2.149" Click="btn_highscore_Click" Background="#FF010301"/>
+            <Image x:Name="image" HorizontalAlignment="Left" Height="51" Margin="97,99,0,0" VerticalAlignment="Top" Width="293" Source="/Assets/Images/goblinTapLogo.png" RenderTransformOrigin="0.39,0.483"/>
 
         </Grid>
 

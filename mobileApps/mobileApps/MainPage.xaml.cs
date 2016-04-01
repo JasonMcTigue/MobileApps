@@ -9,7 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using mobileApps.Resources;
 using System.IO.IsolatedStorage;
-
+using System.Threading;
 
 namespace mobileApps
 {
@@ -21,6 +21,8 @@ namespace mobileApps
         public MainPage()
         {
             InitializeComponent();
+           // Thread.Sleep(2000);
+
 
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();

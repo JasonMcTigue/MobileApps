@@ -1,10 +1,13 @@
-﻿<xapCache source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\mobileApps_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="31/03/2016 20:22:15">
-  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="31/03/2016 20:20:57" />
-  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\mobileApps.dll" archivePath="mobileApps.dll" lastWriteTime="31/03/2016 20:22:13" />
+﻿<xapCache source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\mobileApps_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="01/04/2016 14:38:55">
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="01/04/2016 14:35:10" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\mobileApps.dll" archivePath="mobileApps.dll" lastWriteTime="01/04/2016 14:38:55" />
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\alien.jpeg" archivePath="alien.jpeg" lastWriteTime="31/03/2016 20:20:30" />
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="29/03/2016 20:45:19" />
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="29/03/2016 20:45:19" />
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\background.png" archivePath="Assets\Images\background.png" lastWriteTime="29/03/2016 23:47:08" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\darkbackground.jpg" archivePath="Assets\Images\darkbackground.jpg" lastWriteTime="01/04/2016 13:37:17" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\goblinTapLogo.png" archivePath="Assets\Images\goblinTapLogo.png" lastWriteTime="01/04/2016 14:26:24" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\treebackground.jpg" archivePath="Assets\Images\treebackground.jpg" lastWriteTime="01/04/2016 14:10:27" />
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\goblin.png" archivePath="goblin.png" lastWriteTime="30/03/2016 18:50:22" />
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="29/03/2016 20:45:19" />
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="29/03/2016 20:45:19" />
@@ -21,6 +24,6 @@
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="29/03/2016 20:45:19" />
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="29/03/2016 20:45:19" />
   <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="29/03/2016 20:45:40" />
-  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="31/03/2016 20:22:15" />
-  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="31/03/2016 20:20:57" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="01/04/2016 14:38:55" />
+  <file source="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="01/04/2016 14:35:10" />
 </xapCache>

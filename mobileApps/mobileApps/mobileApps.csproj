@@ -148,6 +148,9 @@
     </Content>
     <Content Include="Assets\BadgeLogo.png" />
     <Content Include="Assets\Images\background.png" />
+    <Content Include="Assets\Images\darkbackground.jpg" />
+    <Content Include="Assets\Images\goblinTapLogo.png" />
+    <Content Include="Assets\Images\treebackground.jpg" />
     <Content Include="goblin.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\SplashScreen.png" />

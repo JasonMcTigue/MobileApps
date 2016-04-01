@@ -36,6 +36,9 @@
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\background.png">
       <PackagePath>Assets\Images\background.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\goblinTapLogo.png">
+      <PackagePath>Assets\Images\goblinTapLogo.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\goblin.png">
       <PackagePath>goblin.png</PackagePath>
     </AppxPackagedFile>
@@ -79,6 +82,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\space.png">
       <PackagePath>Assets\Images\space.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\darkbackground.jpg">
+      <PackagePath>Assets\Images\darkbackground.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Assets\Images\treebackground.jpg">
+      <PackagePath>Assets\Images\treebackground.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JasonMcTigue\Documents\MobileApps\mobileApps\mobileApps\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
