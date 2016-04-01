@@ -37,7 +37,7 @@
             <TextBlock x:Name="txtHighScore" HorizontalAlignment="Left" Margin="139,295,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="100" Width="196"/>
 
         </Grid>
-        <TextBlock x:Name="highScoreText" HorizontalAlignment="Left" Margin="137,209,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="234" RenderTransformOrigin="0.207,1.488"/>
+        <TextBlock x:Name="highScoreText" HorizontalAlignment="Left" Margin="63,209,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="234" RenderTransformOrigin="0.207,1.488" FontFamily="Segoe WP Black" FontSize="32"/>
     </Grid>
 
 </phone:PhoneApplicationPage>

@@ -22,20 +22,20 @@ namespace mobileApps
         DispatcherTimer gamePlayTimer = new DispatcherTimer();// Used for the time in the game.
 
         bool gameStarted = false;// To check of the game is running or not
-        string player = "";
-        int countdownTime = 3;
+        string player = "";//Stores the players name
+        int countdownTime = 3;//The amount of time it takes the game to start after the user has tapped the screen
 
-        int totalGoblins = 0;
-        int playTime = 15;//The time limlit of the game
+        int totalGoblins = 0;//Counter for the amount of goblins the user has taped in the game
+        int playTime = 45;//The time limlit of the game
 
         public GameplayPage()
         {
             InitializeComponent();
 
-            player = userSettings["username"].ToString();
+            player = userSettings["username"].ToString();//Takes in players name from isolated storage and stores in in player variable
 
-            startTimer.Interval = new TimeSpan(0,0,0,1,0);
-            startTimer.Tick += new EventHandler(gameTimer_Tick);
+            startTimer.Interval = new TimeSpan(0,0,0,1,0);//Sets a timer of one second
+            startTimer.Tick += new EventHandler(gameTimer_Tick);//calls the gameTimer method
 
             gamePlayTimer.Interval = new TimeSpan(0, 0, 0, 1, 0);
             gamePlayTimer.Tick += new EventHandler(gamePlayTimer_Tick);
@@ -46,7 +46,7 @@ namespace mobileApps
             {
                 if (countdownTime == 0)
                 {
-                    txtCountdown.Text = "Begin";
+                    txtCountdown.Text = "Start Tapping";
                     countdownTime--;
 
                     txtTime.Text = playTime.ToString();//Sets the textbox on the canvas to the time limit
@@ -59,7 +59,7 @@ namespace mobileApps
                 }
             }
             else {
-                txtCountdown.Visibility = Visibility.Collapsed;
+                txtCountdown.Visibility = Visibility.Collapsed;//Makes the message disaper
                 startTimer.Stop();
             }
         }
@@ -68,13 +68,13 @@ namespace mobileApps
         private void gamePlayTimer_Tick(object sender, EventArgs e) {
             if (playTime == 0)
             {
-                gamePlayTimer.Stop();
-                PlayingCanvas.Children.Clear();
-                populateResults();
+                gamePlayTimer.Stop();//When the timer reaches 0 the game stops
+                PlayingCanvas.Children.Clear();//the canvas is cleared
+                populateResults();//and the populate results method is called
             }
             else {
-                playTime--;
-                txtTime.Text = playTime.ToString();
+                playTime--;//Other wise the timer keeps decreasing
+                txtTime.Text = playTime.ToString();//COnverts the play time to a string so it can be displayed on the screen.
 
             }
         }
@@ -83,30 +83,31 @@ namespace mobileApps
         {
             if (gameStarted == false)
             {
-                gameStarted = true;
-                startTimer.Start();
+                gameStarted = true;//If the user taps the screen the game starts
+                startTimer.Start();//Starts the timer
             }
             else {
+                //Other wise nothing will happen
             }
         }
 
         private void spawnGoblin()
         {
-            Image NewGoblin = new Image();
-            NewGoblin.Name = "goblin" + totalGoblins.ToString();
-            NewGoblin.Source = new BitmapImage(new Uri("goblin.png" , UriKind.RelativeOrAbsolute));
+            Image NewGoblin = new Image();//Creates a new image
+            NewGoblin.Name = "goblin" + totalGoblins.ToString(); //gives the image a name of goblin so they are all unique
+            NewGoblin.Source = new BitmapImage(new Uri("goblin.png" , UriKind.RelativeOrAbsolute));//finds where you have saved the image
             NewGoblin.Height = 60;
             NewGoblin.Width = 60;
-            NewGoblin.Tap += NewGoblin_Tap;
+            NewGoblin.Tap += NewGoblin_Tap;//associates a tap event with any new goblin that is made
 
-            Random number = new Random();
+            Random number = new Random();//creates the image at random locations between the coordinates
             int leftposition = number.Next(0,405);
             int rightposition = number.Next(0,646);
 
             Canvas.SetLeft(NewGoblin, leftposition);
             Canvas.SetTop(NewGoblin, rightposition);
              
-            PlayingCanvas.Children.Add(NewGoblin);
+            PlayingCanvas.Children.Add(NewGoblin);//adds a new goblin to the screen
 
         }
 
@@ -114,11 +115,11 @@ namespace mobileApps
 
         private void NewGoblin_Tap(object sender, System.Windows.Input.GestureEventArgs e) {
             Image image = sender as Image;
-            PlayingCanvas.Children.Remove(image);
-            totalGoblins++;
+            PlayingCanvas.Children.Remove(image);//removes the tapped goblin
+            totalGoblins++;//adds it to a counter
 
-            txtScore.Text = totalGoblins.ToString();
-            spawnGoblin();
+            txtScore.Text = totalGoblins.ToString();//displays the score on the screen
+            spawnGoblin();//then spawns anotehr goblin
 
         }
 
@@ -133,6 +134,7 @@ namespace mobileApps
         private string comment() {
             string resultComment = "";
 
+            //A series of messages that is displayed to the user givin what score they achieved in the game
             if (totalGoblins >= 0 && totalGoblins <= 20) {
                 resultComment = "Poor attempt you could do better";
             }
